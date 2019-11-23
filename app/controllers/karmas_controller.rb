@@ -1,5 +1,5 @@
 class KarmasController < ApplicationController
-  before_action :authorized, only: [:index, :create]
+  before_action :authorized, only: [:create]
 
   def index
     render json: Karma.all
