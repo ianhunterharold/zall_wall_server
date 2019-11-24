@@ -24,26 +24,32 @@ Peters best friend is a golf caddy called Jessie Mendoza. They are inseparable. 
 
 20.times do 
   User.create(
-  name:Faker::Name.unique.name_with_middle,
+  name:Faker::Name.unique.name,
   username:Faker::Internet.free_email,
-  password:Faker::Verb.base,
+  password:'abc',
   bio:Faker::Quote.matz,
   picture:Faker::Avatar.image,
   )
-end
+end 
 
-20.times do
+30.times do
   Group.create(
     name:Faker::Lorem.word,
     group_image:Faker::LoremFlickr.image,
     user_id:Faker::Number.within(range: 1..20)
   )
+end 
 
-20.times do     
+30.times do 
+  UserGroup.create(
+    user_id:Faker::Number.within(range: 1..20),
+    group_id:Faker::Number.within(range:1..20)
+  )
+end   
+
+60.times do     
   Karma.create(
     content:Faker::TvShows::RuPaul.quote,
     user_id:Faker::Number.within(range: 1..20)
   )
-end 
-
 end
