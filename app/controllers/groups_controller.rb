@@ -1,5 +1,5 @@
 class GroupsController < ApplicationController
-  before_action :authorized, only: [:create, :edit, :destroy]
+  skip_before_action :authorized
 
   def index
     render json: Group.all
@@ -17,7 +17,14 @@ class GroupsController < ApplicationController
 
   def destroy 
     @group = id_params 
-    @group.destroy
+    # byebug
+    if @group.destroy
+  
+      render json: 'good job'
+    else 
+      render json: { errors: ["Deletion failed."] }, status: 500
+ 
+    end 
   end 
   
   private 
@@ -27,7 +34,7 @@ class GroupsController < ApplicationController
   end 
 
   def group_params 
-    params.require(:group).permit(:group_id)
+    params.require(:group).permit(:user_id, :group_image, :name)
   end 
 
 end
