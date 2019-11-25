@@ -40,12 +40,12 @@ end
   )
 end 
 
-30.times do 
-  UserGroup.create(
-    user_id:Faker::Number.within(range: 1..20),
-    group_id:Faker::Number.within(range:1..20)
-  )
-end   
+# 30.times do 
+#   UserGroup.create(
+#     user_id:Faker::Number.within(range: 1..20),
+#     group_id:Faker::Number.within(range:1..20)
+#   )
+# end   
 
 60.times do     
   Karma.create(
