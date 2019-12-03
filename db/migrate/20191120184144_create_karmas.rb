@@ -3,6 +3,7 @@ class CreateKarmas < ActiveRecord::Migration[6.0]
     create_table :karmas do |t|
       t.string :content
       t.integer :user_id
+      t.integer :giving_user_id
 
       t.timestamps
     end

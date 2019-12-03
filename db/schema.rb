@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 2019_11_20_184359) do
   create_table "karmas", force: :cascade do |t|
     t.string "content"
     t.integer "user_id"
+    t.integer "giving_user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
