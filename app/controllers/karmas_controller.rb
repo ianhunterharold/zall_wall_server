@@ -10,11 +10,10 @@ class KarmasController < ApplicationController
     render json: @karma
   end
   
-  
   private 
 
   def karma_params
-      params.require(:karma).permit(:content, :user_id)
+      params.require(:karma).permit(:content, :user_id, :giving_user_id, :from, :picture_of_giver, :created_at)
   end 
 exit
 
