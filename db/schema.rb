@@ -27,6 +27,8 @@ ActiveRecord::Schema.define(version: 2019_11_20_184359) do
     t.string "content"
     t.integer "user_id"
     t.integer "giving_user_id"
+    t.string "from"
+    t.string "picture_of_giver"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

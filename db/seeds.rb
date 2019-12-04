@@ -43,6 +43,8 @@ end
   Karma.create(
     content:Faker::TvShows::RuPaul.quote,
     user_id:Faker::Number.within(range: 1..20),
-    giving_user_id:Faker::Number.within(range:1..20)
+    giving_user_id:Faker::Number.within(range:1..20),
+    from: '',
+    picture_of_giver:''
   )
 end

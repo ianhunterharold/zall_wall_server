@@ -4,6 +4,8 @@ class CreateKarmas < ActiveRecord::Migration[6.0]
       t.string :content
       t.integer :user_id
       t.integer :giving_user_id
+      t.string :from
+      t.string :picture_of_giver
 
       t.timestamps
     end
