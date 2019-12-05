@@ -1,50 +1,48 @@
 
-u1 = User.create(username: 'ianhunterharold',password:'abc',bio: 'Ian Harold Richardson is a 27-year-old lawyer who enjoys reading, glamping and cycling. He is friendly and bright, but can also be very greedy and a bit sneaky.
-  He is a British Hindu who defines himself as bisexual. He has a degree in law. He is allergic to latex.
-  Physically, Ian is slightly overweight but otherwise in good shape. He is average-height with walnut skin, black hair and black eyes.He grew up in a middle class neighbourhood. He was raised by his mother, his father having left when he was young.
-  He is currently in a relationship with Hector Robert Noble. Hector is 19 years older than him and works as a lawyer.
-  Ians best friend is a lawyer called Warner Brooks. They have a very firey friendship. He also hangs around with Stacy Flynn and Marvyn Page. They enjoy football together.', picture: 'https://i.imgur.com/uEJZwGd.jpg?1', name: "Ian Hunter")
+u1 = User.create(username: 'ianhunter@gmail.com', password:'abcabc', bio: 'Ian Harold is a 27-year-old lawyer who enjoys reading, glamping and cycling. He is friendly and bright, but can also be very greedy and a bit sneaky. He is a British Hindu who defines himself as bisexual. He has a degree in law. He is allergic to latex. Physically, Ian is slightly overweight but otherwise in good shape. He is average-height with walnut skin, black hair and black eyes.He grew up in a middle class neighbourhood. He was raised by his mother, his father having left when he was young. He is currently in a relationship with Hector Robert Noble. Hector is 19 years older than him and works as a lawyer.Ian\'s best friend is a lawyer called Warner Brooks. They have a very firey friendship. He also hangs around with Stacy Flynn and Marvyn Page. They enjoy Soccer together.', picture: 'https://i.imgur.com/uEJZwGd.jpg?1', name: "Ian Hunter")
   
-u2 = User.create(username: 'peterpaul',password: 'abc',bio: 'Although the cause of death was reported as infection, Peter, a 30-year-old golf caddy, is convinced that his late girlfriend, Colleen Brown, was murdered.
-He is American. He started studying sports science at college but never finished the course. He has a severe phobia of buttons, and is obsessed with zombies.Physically, Peter is in good shape. He is short with cocao skin, brown hair and brown eyes.
-He grew up in a middle class neighbourhood. His father left when he was young, leaving him with his mother, who was an addict.
-He is currently in a relationship with Tracey Erica White. Tracey is 7 years older than him and works as a sous chef.
-Peters best friend is a golf caddy called Jessie Mendoza. They are inseparable. He also hangs around with Coby King and Gail Singh. They enjoy binge-watching boxed sets together.', picture: 'https://i.imgur.com/teiOiNI.jpg', name: "Peter Paul") 
+u2 = User.create(username: 'peterpaul@gmail.com', password:'abcabc', bio: 'Although the cause of death was reported as infection, Peter, a 30-year-old golf caddy, is convinced that his late girlfriend, Colleen Brown, was murdered. He is American. He started studying sports science at college but never finished the course. He has a severe phobia of buttons, and is obsessed with zombies. Physically, Peter is in good shape. He is short with cocao skin, brown hair and brown eyes. He grew up in a middle class neighbourhood. His father left when he was young, leaving him with his mother, who was an addict.
+He is currently in a relationship with Tracey Erica White. Tracey is 7 years older than him and works as a sous chef. Peter\'s best friend is a golf caddy called Jessie Mendoza. They are inseparable. He also hangs around with Coby King and Gail Singh. They enjoy binge-watching boxed sets together.', picture: 'https://i.imgur.com/lbsxIYL.png', name: "Peter Paul") 
 
-u3=User.create(username: 'mel', password:'abc',bio: 'Mother of five, real estate agent', picture:'https://i.imgur.com/Ovb78Hm.png',name:'Melissa Golba')
+u3=User.create(username: 'melissagolba@gmail.com', password:'abcabc',bio: 'Melissa Golba is a 55-year-old gym assistant who enjoys attending gallaries, watching television and helping old ladies across the road. She is considerate and stable, but can also be very sneaky and a bit standoffish.She is a British Jedi who defines herself as straight. She has a degree in sports science. Physically, Melissa is in good shape. She is short with olive skin, auburn hair and green eyes. She grew up in an upper class neighbourhood. She was raised in a happy family home with two loving parents. She is currently single. Her most recent romance was with a plumber called Herbert Nathan Simpson, who was 11 years older than her. They broke up because Melissa hit Herbert. Melissa\'s best friend is a gym assistant called Heddwyn Felix. They get on well most of the time. She also hangs around with a gym assistant called Horatio Walters. They enjoy cookery together.', picture:'https://i.imgur.com/Ovb78Hm.png', name:'Melissa Golba')
 
-# g1 = Group.create(name: 'Puppies', group_image: 'https://imgur.com/r/puppies/zQTBqNq', user_id: 1)
-# g2 = Group.create(name: 'Cats', group_image: 'https://imgur.com/r/cats/QQPuCvi', user_id: 2)
-# g3 = Group.create(name: 'Yoga', group_image: 'https://imgur.com/gallery/nLA1r', user_id: 1)
+u4=User.create(username: 'elijahmichael@gmail.com', password:'abcabc',bio:'Elijah Michael is a 25-year-old semi-professional sports person who enjoys watching sport, attending museums and travelling. He is friendly and loveable, but can also be very evil and a bit selfish. He is a Colombian Christian who defines himself as straight. He didn\'t finish school. He is allergic to nickel and grasshoppers. He is obsessed with creating playlists.Physically, Elijah is in pretty good shape. He is average-height with fair skin, black hair and green eyes. He grew up in a middle class neighbourhood. He was raised by his mother, his father having left when he was young.He is currently married to Aliyah Rowan Tate. Aliyah is the same age as him and works as an IT technician. Elijah has one child with wife Aliyah: Ralphie aged 2. Elijah\'s best friend is a semi-professional sports person called Daniella Blake. They are inseparable. He also hangs around with Lee Byrne and Rory Driscoll. They enjoy praying together.',picture:'https://i.imgur.com/DMVKPSZ.png',name:'Elijah Michael')
 
-# k1 = Karma.create(content: 'Thank you for always listening!', user_id: 1)
-# k2 = Karma.create(content: 'You have been so helpful, thank you!',user_id: 2)
-# k3 = Karma.create(content: 'Keep up the great work!',user_id: 2)
+u5=User.create(username:'jacobhawk@gmail.com', password:'abcabc', bio:'Jacob Hawk is a 34-year-old golf caddy who enjoys golf, repressing minorities and playing video games. He is brave and exciting, but can also be very lazy and a bit violent. He is addicted to alcohol, something which his friend Mercedes Amelie Fowler pointed out when he was 16. The problem intensified in 2005. In 2013, Jacob lost his job as a health centre receptionist as a result of his addiction. He is Canadian who defines himself as straight. He has a degree in sports science. He is obsessed with over-knee socks.
+Physically, Jacob is slightly overweight but otherwise in good shape. He is average-height with dark chocolate skin, black hair and black eyes. He has one or two distinguishing features including a mole on his left cheek and a pair of socks between his shoulder blades.He grew up in a middle class neighbourhood. His mother left when he was young, leaving him with his father, who was a drunk. He is currently in a relationship with Yazmin Peace Stuart. Yazmin is the same age as him and works as a cleaner. Jacob\'s best friend is a golf caddy called Mercedes Fowler. They are inseparable. He also hangs around with Jay Gregory and Tory Collins. They enjoy escapology together.', picture:'https://i.imgur.com/PWN2984.png', name:'Jacob Hawk')
 
-20.times do 
-  User.create(
-  name:Faker::Name.unique.name,
-  username:Faker::Internet.free_email,
-  password:'abc',
-  bio:Faker::Quote.matz,
-  picture:Faker::Avatar.image,
-  )
-end 
+u6=User.create(username:'noahchristian@gmail.com',password:'abcabc', bio:'Noah Christian is a 24-year-old television actor who enjoys listening to music, duck herding and cookery. He is energetic and creative, but can also be very dull and a bit standoffish. He is an Australian Sikh who defines himself as straight. He started college but never finished the course. He is allergic to eggs. He has a severe phobia of cats. Physically, Noah is in good shape. He is average-height with chocolate skin, brown hair and brown eyes. He grew up in a working class neighbourhood. His parents separated when he was small, but remained friends and provided a happy, stable home.He is currently in a relationship with Rae Wanda Kelly. Rae is 2 years older than him and works as a kitchen assistant. Noah\'s best friend is a television actor called Derek Murray. They have a very firey friendship. He also hangs around with Norma James and Taylor Holmes. They enjoy writing together.',picture:'https://i.imgur.com/QwO5yrQ.png',name:'Noah Christian')
 
-30.times do
-  Group.create(
-    name:Faker::Lorem.word,
-    group_image:'https://i.imgur.com/PVqLlsb.png',
-    user_id:Faker::Number.within(range: 1..20)
-  )
-end
+u7=User.create(username:'Kimberlybleier@gmail.com',password:'abcabc',bio:'Kimberly Bleier is a 37-year-old spy who enjoys charity work, going to the movies and jigsaw puzzles. She is exciting and generous, but can also be very stingy and a bit unfriendly. She is Irish who defines herself as straight. She has a post-graduate degree. She is allergic to wool. She has phobias of feet and flying. Physically, Kimberly is in good shape. She is short with light skin, grey hair and blue eyes. She grew up in an upper class neighbourhood. After her mother died when she was young, she was raised by her father. She is currently married to Haley Owen Wilson. Haley is the same age as her and works as a personal trainer. Kimberly has three children with husband Haley: Keira aged 3, Brianna aged 7 and Eoin aged 10. Kimberly\'s best friend is a spy called Brody O\'Ryan. They have a very firey friendship. She also hangs around with Anita Kumar and Morgan Robertson. They enjoy cookery together.',picture:'https://i.imgur.com/uJ2DHYq.png',name:'Kimberly Bleier')
 
-60.times do     
-  Karma.create(
-    content:Faker::TvShows::RuPaul.quote,
-    user_id:Faker::Number.within(range: 1..20),
-    giving_user_id:Faker::Number.within(range:1..20),
-    from: '',
-    picture_of_giver:''
-  )
-end
+u8=User.create(username:'zethharold@gmail.com', password:'abcabc',bio:'Zeth Harold is a 40-year-old trainee tradesperson who enjoys playing video games, watching sport and spreading fake news on Facebook. He is loveable and stable, but can also be very dull and a bit lazy. He is an American Christian who defines himself as straight. He started studying chemistry at college but never finished the course. He is obsessed with bottled water. Physically, Zeth is slightly overweight but otherwise in good shape. He is tall with fair skin, golden hair and brown eyes. He has a tattoo of a waterfall between his shoulder blades. He grew up in a working class neighbourhood. He was raised in a happy family home with two loving parents. He is currently single. His most recent romance was with a doctor called Ann Emily Peterson, who was 2 years older than him. They broke up because Ann wanted to be with somebody less conventional. Zeth has one child with ex-girlfriend Natasha: Maya aged 16. Zeth\'s best friend is a trainee tradesperson called Darcey Ross. They get on well most of the time. He also hangs around with a trainee tradesperson called Taylor Miller. They enjoy bargain hunting together.',picture:'https://i.imgur.com/KoblGWk.png',name:'Zeth Harold')
+
+u9=User.create(username:'chelseablankenship@gmail.com',password:'abcabc',bio:'Chelsea Blankenship is a 25-year-old government politician who enjoys praying, cookery and golf. She is loveable and exciting, but can also be very rude and a bit disloyal. She is an American Christian. She started studying philosophy, politics and economics at college but never finished the course. She is obsessed with being painted blue. Physically, Chelsea is in good shape. She is short with fair skin, golden hair and blue eyes. She has a birthmark on her left shoulder.She grew up in an upper class neighbourhood. She was raised by her father, her mother having left when she was young. She is currently in a relationship with Timothy Brandon O\'Gallagher. Timothy is 13 years older than her and works as a chef.Chelsea\'s best friend is a government politician called Tiana Alexander. They have a very firey friendship. She also hangs around with Kaleb Simpson and Everly Cox. They enjoy duck herding together.',picture:'https://i.imgur.com/e88ixGK.png',name:'Chelsea Blankenship')
+
+# 20.times do 
+#   User.create(
+#   name:Faker::Name.unique.name,
+#   username:Faker::Internet.free_email,
+#   password:'abc',
+#   bio:Faker::Quote.matz,
+#   picture:Faker::Avatar.image,
+#   )
+# end 
+
+# 30.times do
+#   Group.create(
+#     name:Faker::Lorem.word,
+#     group_image:'https://i.imgur.com/PVqLlsb.png',
+#     user_id:Faker::Number.within(range: 1..20)
+#   )
+# end
+
+# 60.times do     
+#   Karma.create(
+#     content:Faker::TvShows::RuPaul.quote,
+#     user_id:Faker::Number.within(range: 1..20),
+#     giving_user_id:Faker::Number.within(range:1..20),
+#     from: '',
+#     picture_of_giver:''
+#   )
+# end
