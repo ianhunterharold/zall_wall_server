@@ -14,9 +14,7 @@ class Api::AuthController < ApplicationController
       # head :not_found
     end 
   end 
-
-
-
+  
   private
   
   def user_login_params

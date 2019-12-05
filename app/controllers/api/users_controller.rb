@@ -1,8 +1,23 @@
 class Api::UsersController < ApplicationController
-  skip_before_action :authorized, only: [ :index, :create]
+  skip_before_action :authorized, only: [ :index, :create, :show, :update]
 
   def index 
     render json: User.all
+  end 
+
+  def show 
+    @user = id_params
+  end 
+
+  def update
+    
+    @user = id_params
+    if @user.valid?
+      @user.update(user_params)
+      render json: @user
+    else 
+      render :edit 
+    end 
   end 
 
   def profile 
@@ -24,7 +39,11 @@ class Api::UsersController < ApplicationController
   private
 
   def user_params 
-    params.require(:user).permit(:username, :password, :bio, :picture)
+    params.require(:user).permit(:username, :bio, :picture)
+  end 
+
+  def id_params 
+    User.find(params[:id])
   end 
 
 end
