@@ -9,7 +9,7 @@ To Install:
 ```
 1. bundle install
 
-2. rails s - open to your preferred local host 
+2. rails s - open to your preferred local host. The zall_wall_server should be opened first to prevent running into local host errors.
 
 3. Check your path /api/users to ensure that your server is functioning properly. 
     If you see an array of objects you have set up the server correctly. 
