@@ -46,3 +46,4 @@ u9=User.create(username:'chelseablankenship@gmail.com',password:'abcabc',bio:'Ch
 #     picture_of_giver:''
 #   )
 # end
+
